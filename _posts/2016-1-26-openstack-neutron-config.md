@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Openstack Neutron config params
+title: Openstack(Juno) Neutron config params
 ---
 
 ## Controller (with network node)
