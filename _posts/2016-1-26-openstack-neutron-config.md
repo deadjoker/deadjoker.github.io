@@ -175,6 +175,10 @@ title: Openstack(Juno) Neutron config params
     tenant_network_type = vlan
     bridge_mappings = physnet1:br0
 
+## Create public network
+
+`neutron net-create external-net --provider:network_type vlan --provider:physical_network physnet1 --provider:segmentation_id 60 --router:external`
+
 ## Architecture
 
 ![server with switches](../images/server-with-switch.jpg "server connect with switch")
