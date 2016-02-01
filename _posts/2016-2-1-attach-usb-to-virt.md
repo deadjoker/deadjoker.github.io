@@ -3,13 +3,13 @@ layout: post
 title: Attach usb device to virtual machine
 ---
 
-1. find the usb device on the host machine
+* find the usb device on the host machine
 
 `lsusb`
 
 `Bus 002 Device 003: ID 1a56:dd01`
 
-2. edit a xml file for attaching
+* edit a xml file for attaching
 
 `cat attatch-usb.xml`
 
@@ -21,9 +21,9 @@ title: Attach usb device to virtual machine
       </source>
     </hostdev>
 
-3. attach the usb into the virtual machine
+* attach the usb into the virtual machine
 
 `virsh attach-device instance-00000460 /path/to/attach-usb.xml --persistent`
 
-4. now you can find the usb device in the virtual machine named `instance-00000460`
+* now you can find the usb device in the virtual machine named `instance-00000460`
 
