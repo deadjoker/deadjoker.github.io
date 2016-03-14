@@ -187,3 +187,9 @@ title: Openstack(Juno) Neutron config params
 
 ![compute virtual devices insed](../images/compute-devices.jpg "bridge inside compute")
 
+
+### reference
+
+1. [Openstack Networking (Type driver vlan and Openvswitch)](http://www.opencloudblog.com/?p=460)
+
+2. [Openstack neutron network setup](http://www.opencloudblog.com/?p=654)
